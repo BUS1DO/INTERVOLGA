@@ -1,0 +1,88 @@
+/*Цвет фона по умолчанию*/
+
+body {
+    background-color: #134;
+    transition: background 0.5s ease-out;
+    font-family: HelveticaNeue, Arial, Sans-serif;
+}
+
+
+/*Цвет фона при нажатии на кнопку показать страны*/
+
+body.on {
+    background-color: #099;
+}
+
+
+/*Стилизуем содержимое по центру*/
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    min-height: 150px;
+    border: 7px solid #fff;
+    border-radius: 25px;
+    width: 450px;
+    padding: 10px;
+}
+
+label {
+    font-size: 25px;
+    color: white;
+}
+
+input[type="text"] {
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.button {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover,
+button.active {
+    background: white;
+    color: #099;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/*Скрываем нашу таблицу с данными*/
+
+.hide {
+    display: none;
+}
+
+#to-show {
+    margin: 15px 10px 10px 75px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+.del {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 15px;
+}
